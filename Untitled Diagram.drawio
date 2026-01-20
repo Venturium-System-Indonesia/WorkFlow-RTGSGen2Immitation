@@ -1,11 +1,41 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.3">
   <diagram name="Page-1" id="aX1nCSB8F4amTuXOUnDw">
     <mxGraphModel dx="1906" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="u3uTkseLgAFaeB7XPRyy-2" edge="1" parent="1" source="xKutHVOchFSDdNIQsbZE-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="u3uTkseLgAFaeB7XPRyy-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xKutHVOchFSDdNIQsbZE-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" value="Start" vertex="1">
           <mxGeometry height="100" width="100" x="90" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="u3uTkseLgAFaeB7XPRyy-4" edge="1" parent="1" source="u3uTkseLgAFaeB7XPRyy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="u3uTkseLgAFaeB7XPRyy-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u3uTkseLgAFaeB7XPRyy-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" value="Message incoming dari BI" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="u3uTkseLgAFaeB7XPRyy-6" edge="1" parent="1" source="u3uTkseLgAFaeB7XPRyy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="u3uTkseLgAFaeB7XPRyy-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u3uTkseLgAFaeB7XPRyy-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" value="Check tipe transaksi" vertex="1">
+          <mxGeometry height="60" width="120" x="80" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="u3uTkseLgAFaeB7XPRyy-8" edge="1" parent="1" source="u3uTkseLgAFaeB7XPRyy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="u3uTkseLgAFaeB7XPRyy-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u3uTkseLgAFaeB7XPRyy-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" value="103 ?" vertex="1">
+          <mxGeometry height="80" width="80" x="300" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="u3uTkseLgAFaeB7XPRyy-10" edge="1" parent="1" source="u3uTkseLgAFaeB7XPRyy-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="u3uTkseLgAFaeB7XPRyy-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u3uTkseLgAFaeB7XPRyy-7" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" value="Logging" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="u3uTkseLgAFaeB7XPRyy-9" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="End" vertex="1">
+          <mxGeometry height="60" width="100" x="290" y="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
