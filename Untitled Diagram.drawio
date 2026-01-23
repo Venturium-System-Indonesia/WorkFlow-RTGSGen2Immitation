@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.4">
   <diagram name="Page-1" id="aX1nCSB8F4amTuXOUnDw">
     <mxGraphModel dx="1906" dy="971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,7 +22,10 @@
         <mxCell id="u3uTkseLgAFaeB7XPRyy-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" value="Check tipe transaksi" vertex="1">
           <mxGeometry height="60" width="120" x="80" y="360" as="geometry" />
         </mxCell>
-        <mxCell id="u3uTkseLgAFaeB7XPRyy-8" edge="1" parent="1" source="u3uTkseLgAFaeB7XPRyy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="u3uTkseLgAFaeB7XPRyy-7" value="">
+        <mxCell id="u3uTkseLgAFaeB7XPRyy-8" edge="1" parent="1" source="u3uTkseLgAFaeB7XPRyy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="u3uTkseLgAFaeB7XPRyy-7" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-2" edge="1" parent="1" source="u3uTkseLgAFaeB7XPRyy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="1Aev0Q_NxC2A4DP8FsUz-1" value="Yes">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u3uTkseLgAFaeB7XPRyy-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" value="103 ?" vertex="1">
@@ -36,6 +39,57 @@
         </mxCell>
         <mxCell id="u3uTkseLgAFaeB7XPRyy-9" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="End" vertex="1">
           <mxGeometry height="60" width="100" x="290" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-4" edge="1" parent="1" source="1Aev0Q_NxC2A4DP8FsUz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;dashed=1;dashPattern=8 8;" target="1Aev0Q_NxC2A4DP8FsUz-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-6" edge="1" parent="1" source="1Aev0Q_NxC2A4DP8FsUz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="1Aev0Q_NxC2A4DP8FsUz-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" value="Set Properti Set Date" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-3" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;strokeColor=default;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Set Property&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;NewDate : True atau False apakah data Date pada BOR_UPDATE sama dengan tanggal hari ini atau tidak.&lt;/li&gt;&lt;li&gt;CurrentDate : ddMMyyyy tanggal hari ini.&lt;/li&gt;&lt;li&gt;DataFieldDate : Value pada BOR_UPDATE field date.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="340" x="490" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-8" edge="1" parent="1" source="1Aev0Q_NxC2A4DP8FsUz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="1Aev0Q_NxC2A4DP8FsUz-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-9" connectable="0" parent="1Aev0Q_NxC2A4DP8FsUz-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.2136" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-11" edge="1" parent="1" source="1Aev0Q_NxC2A4DP8FsUz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="1Aev0Q_NxC2A4DP8FsUz-10" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" value="NewDate&lt;div&gt;=&lt;/div&gt;&lt;div&gt;False&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="300" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-14" edge="1" parent="1" source="1Aev0Q_NxC2A4DP8FsUz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="1Aev0Q_NxC2A4DP8FsUz-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-7" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" value="Update data files Counter pada BOR_UPDATE" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-13" edge="1" parent="1" source="1Aev0Q_NxC2A4DP8FsUz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="1Aev0Q_NxC2A4DP8FsUz-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-10" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" value="Update date dengan tanggal hari ini dan restart counter pada BOR_UPDATE" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-18" edge="1" parent="1" source="1Aev0Q_NxC2A4DP8FsUz-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;dashed=1;dashPattern=8 8;" target="1Aev0Q_NxC2A4DP8FsUz-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-12" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" value="Mapping RTGS to Delimited" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-17" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;dashed=1;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Map RTGS 2 Del&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/1L4hJUXxCU0oIg9IysKON_rQWm0buzqyzSFAoBNe8a9o/edit?hl=id&amp;amp;gid=0#gid=0&quot;&gt;Link mapping&lt;/a&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="210" x="50" y="740" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
