@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.4">
   <diagram name="Page-1" id="aX1nCSB8F4amTuXOUnDw">
-    <mxGraphModel dx="3166" dy="747" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3818" dy="1079" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -148,11 +148,23 @@
         <mxCell id="6plVb0UZu3ESO-TkAp3q-54" edge="1" parent="1" source="6plVb0UZu3ESO-TkAp3q-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;dashed=1;dashPattern=8 8;" target="6plVb0UZu3ESO-TkAp3q-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="6plVb0UZu3ESO-TkAp3q-56" edge="1" parent="1" source="6plVb0UZu3ESO-TkAp3q-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6plVb0UZu3ESO-TkAp3q-55" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6plVb0UZu3ESO-TkAp3q-51" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" value="Set Property DTCT" vertex="1">
           <mxGeometry height="60" width="120" x="-450" y="1280" as="geometry" />
         </mxCell>
         <mxCell id="6plVb0UZu3ESO-TkAp3q-53" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;strokeColor=default;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Set Property&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;dtct : Look up TRN (3 digit akhir field 72 dengan contain value &lt;b&gt;/CODTYPTR/&lt;/b&gt;)&lt;b&gt;&amp;nbsp;&lt;/b&gt;ke data files &lt;b&gt;TTC_DT_CT&lt;/b&gt;.&lt;b&gt; &lt;/b&gt;Jika lookup value tersebut tidak ada maka mengembalikan nilai &lt;b&gt;NO&lt;/b&gt;&lt;/li&gt;&lt;li&gt;sender53 : Index ke 7 (from member) atau 8 digit pertama field 53A&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="120" width="590" x="-220" y="1225" as="geometry" />
+        </mxCell>
+        <mxCell id="6plVb0UZu3ESO-TkAp3q-58" edge="1" parent="1" source="6plVb0UZu3ESO-TkAp3q-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;dashed=1;dashPattern=8 8;" target="6plVb0UZu3ESO-TkAp3q-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6plVb0UZu3ESO-TkAp3q-55" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" value="Set Property Incoming RTGS" vertex="1">
+          <mxGeometry height="60" width="120" x="-450" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="6plVb0UZu3ESO-TkAp3q-57" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;dashed=1;strokeColor=default;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Set Property&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;paramReqJson : gabungan string &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;&quot;00005|&quot;+PROPERTY_IP+&quot;|&quot;+now(&quot;yyyyMMdd&quot;)+&quot;|&quot;+now(&quot;HHmmss&quot;)+&quot;|&quot;+&quot;rtggw|13|005|01|&quot;+now(&quot;dd-MM-yyyy&quot;)+&quot;|&quot;+now(&quot;dd-MM-yyyy&quot;)+&quot;|010|IDR|2|&quot;+amount(field 32 dengan decimal dot)+&quot;|0005|rtggw||0|O| |&quot;+PROPERTY_DATA_KEY&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;paramData1 : lihat ke &lt;a href=&quot;https://github.com/Venturium-System-Indonesia/WorkFlow-RTGSGen2Immitation/blob/main/IncomingRTGS/setPropIncRTGS-paramData1&quot;&gt;github/paramData1&lt;/a&gt;&lt;/li&gt;&lt;li&gt;paramData2 : lihat ke &lt;a href=&quot;https://github.com/Venturium-System-Indonesia/WorkFlow-RTGSGen2Immitation/blob/main/IncomingRTGS/setPropIncRTGS-paramData2&quot;&gt;github/paramData2&lt;/a&gt;&lt;/li&gt;&lt;li&gt;paramReqHis : lihat ke &lt;a href=&quot;https://github.com/Venturium-System-Indonesia/WorkFlow-RTGSGen2Immitation/blob/main/IncomingRTGS/setPropIncRTGS-paramReqHis&quot;&gt;github/paramReqHis&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="590" x="-230" y="1390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
