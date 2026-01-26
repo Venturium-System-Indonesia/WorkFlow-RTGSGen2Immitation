@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.4">
   <diagram name="Page-1" id="aX1nCSB8F4amTuXOUnDw">
-    <mxGraphModel dx="2121" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1758" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,8 +13,8 @@
         <mxCell id="u3uTkseLgAFaeB7XPRyy-4" edge="1" parent="1" source="u3uTkseLgAFaeB7XPRyy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="u3uTkseLgAFaeB7XPRyy-3" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u3uTkseLgAFaeB7XPRyy-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" value="Message incoming dari BI" vertex="1">
-          <mxGeometry height="60" width="120" x="80" y="240" as="geometry" />
+        <mxCell id="u3uTkseLgAFaeB7XPRyy-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;" value="Set Property" vertex="1">
+          <mxGeometry height="60" width="120" x="-110" y="360" as="geometry" />
         </mxCell>
         <mxCell id="u3uTkseLgAFaeB7XPRyy-6" edge="1" parent="1" source="u3uTkseLgAFaeB7XPRyy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="u3uTkseLgAFaeB7XPRyy-5" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -127,13 +127,13 @@
         <mxCell id="1Aev0Q_NxC2A4DP8FsUz-31" edge="1" parent="1" source="1Aev0Q_NxC2A4DP8FsUz-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="1Aev0Q_NxC2A4DP8FsUz-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-28" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" value="Logging" vertex="1">
+        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-28" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" value="Message incoming dari BI" vertex="1">
           <mxGeometry height="60" width="120" x="-110" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-32" edge="1" parent="1" source="1Aev0Q_NxC2A4DP8FsUz-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="u3uTkseLgAFaeB7XPRyy-1">
+        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-33" edge="1" parent="1" source="1Aev0Q_NxC2A4DP8FsUz-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="u3uTkseLgAFaeB7XPRyy-1" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-30" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" value="Logging" vertex="1">
+        <mxCell id="1Aev0Q_NxC2A4DP8FsUz-30" parent="1" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=2;" value="Set Property" vertex="1">
           <mxGeometry height="60" width="120" x="-110" y="240" as="geometry" />
         </mxCell>
       </root>
