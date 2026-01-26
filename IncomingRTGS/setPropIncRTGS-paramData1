@@ -76,3 +76,16 @@ BEGIN
 
     RETURN final_result
 END
+
+## Penjelasan Detail Komponen
+Pseudocode di atas memecah logika concat yang panjang menjadi langkah-langkah prosedural:
+
+Variabel Input: Mengambil semua properti pesan (giroBI, dtct, sender53) dan data referensi di awal agar mudah dibaca.
+
+Logic Block 1: Memproses kondisi nested-if pertama. Jika dtct bukan "NO", ia mengecek apakah pengirim mengandung "SYACID" untuk menentukan nilai "1" atau "0".
+
+Logic Block 2: Memproses kondisi nested-if kedua dengan logika serupa namun menghasilkan nilai "299" atau "199".
+
+Ekstraksi Data: Melakukan operasi split pada data SERIALIZED untuk mengambil indeks ke-11, 10, 24, 6, dan 7 secara terpisah.
+
+Concatenation: Menggabungkan seluruh variabel hasil proses di atas dengan string pembatas statis (seperti `|`, `||`, `|rtggw`, `-`, `|||||`Reseved) sesuai urutan aslinya.
