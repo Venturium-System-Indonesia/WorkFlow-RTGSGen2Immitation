@@ -1,0 +1,78 @@
+ALGORITMA Construct_Message_String
+BEGIN
+    // ---------------------------------------------------------
+    // 1. INISIALISASI VARIABEL INPUT
+    // ---------------------------------------------------------
+    VAR giroBI          = getMessageProperty("giroBI")
+    VAR dtct_status     = getMessageProperty("dtct")
+    VAR sender_info     = getMessageProperty("sender53")
+    VAR serialized_data = getData("SERIALIZED")
+    VAR bor_counter     = XML_GetValueFromRef("BOR_Update", "Counter")
+
+    // ---------------------------------------------------------
+    // 2. LOGIKA KONDISIONAL PERTAMA (Status Flag)
+    // ---------------------------------------------------------
+    VAR logic_block_1 = ""
+    
+    IF (dtct_status == "NO") THEN
+        logic_block_1 = "0"
+    ELSE
+        IF (sender_info CONTAINS "SYACID") THEN
+            logic_block_1 = "1"
+        ELSE
+            logic_block_1 = "0"
+        END IF
+    END IF
+
+    // ---------------------------------------------------------
+    // 3. LOGIKA KONDISIONAL KEDUA (Code Type)
+    // ---------------------------------------------------------
+    VAR logic_block_2 = ""
+
+    IF (dtct_status == "NO") THEN
+        logic_block_2 = "199"
+    ELSE
+        IF (sender_info CONTAINS "SYACID") THEN
+            logic_block_2 = "299"
+        ELSE
+            logic_block_2 = "199"
+        END IF
+    END IF
+
+    // ---------------------------------------------------------
+    // 4. EKSTRAKSI DATA (SPLIT SERIALIZED)
+    // ---------------------------------------------------------
+    // Fungsi split diasumsikan: split(sumber, delimiter, index)
+    
+    VAR data_index_11 = split(serialized_data, "\|", "11")
+    VAR data_index_10 = split(serialized_data, "\|", "10")
+    VAR data_index_24 = split(serialized_data, "\|", "24")
+    VAR data_index_6  = split(serialized_data, "\|", "6")
+    VAR data_index_7  = split(serialized_data, "\|", "7")
+
+    // ---------------------------------------------------------
+    // 5. PENYUSUNAN HASIL AKHIR (CONCATENATION)
+    // ---------------------------------------------------------
+    VAR final_result = CONCATENATE(
+        giroBI,
+        "|",
+        logic_block_1,
+        "||",
+        data_index_11,
+        "|",
+        logic_block_2,
+        "|rtggw",
+        bor_counter,
+        "|",
+        data_index_10,
+        " - ",
+        data_index_24,
+        " - ",
+        data_index_6,
+        " - ",
+        data_index_7,
+        "|||||Reseved"
+    )
+
+    RETURN final_result
+END
